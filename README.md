@@ -1,5 +1,3 @@
-# README
-
 ## 目次
 
 - [概要](##概要)
@@ -19,7 +17,7 @@
 **以下のテストユーザーを使用してログインすることも可能です。**
 
 #### テストユーザー
-- Name: testuser1
+- NickName: testuser1
 - Email: jimokara.test@gmail.com
 
 
@@ -108,7 +106,7 @@
 % rails db:migrate
 ```
 
-- アプリケーションを起動
+- アプリケーションサーバーを起動
 
 ```
 % rails s
