@@ -9,7 +9,6 @@ class DeviseCreateUsers < ActiveRecord::Migration[6.0]
       t.string :nickname, null: false
       t.string :phone_number, null: false
       t.string :free_comment
-      t.boolean :agreement, null: false
       t.integer :prefecture_id
       t.integer :generation_id
 

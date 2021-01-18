@@ -18,7 +18,6 @@ ActiveRecord::Schema.define(version: 2021_01_18_013416) do
     t.string "nickname", null: false
     t.string "phone_number", null: false
     t.string "free_comment"
-    t.boolean "agreement", null: false
     t.integer "prefecture_id"
     t.integer "generation_id"
     t.string "reset_password_token"
