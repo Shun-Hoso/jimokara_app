@@ -1,3 +1,95 @@
-// Place all the styles related to the Posts controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  height: 100vh;
+  width: 100vw;
+}
+.header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: whitesmoke;
+  padding: 0 5em;
+  margin-bottom: 5em;
+}
+
+.header-title {
+  font-size: 2.5em;
+  font-family: serif;
+  font-weight: bold;
+}
+
+.header-lists {
+  display: flex;
+  font-size: 1.5em;
+  font-family: serif;
+  font-weight: bold;
+}
+
+.header-list {
+  margin-right: 0.5em;
+}
+
+.toppage-message {
+  text-align: center;
+  font-family: serif;
+  font-size: 2.5em;
+}
+
+.top-image {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.song-people-img {
+  width: 100%;
+}
+
+.toppage-event {
+
+}
+
+.this-month-event {
+  text-align: center;
+  font-size: 2em;
+  font-family: serif;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.toppage-event-lists {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 4em;
+}
+
+.toppage-event-list {
+  font-weight: bold;
+  font-family: serif;
+}
+
+p {
+  font-size: 1em;
+  font-family: serif;
+  text-align: center;
+}
+
+.footer {
+  height: 10vh;
+  margin-top: 2em;
+  padding: 0 5em;
+  background-color: black;
+  color: whitesmoke;
+  font-family: serif;
+}
+
+.footer-lists {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+.footer-link {
+  color: whitesmoke;
+  font-size: 1.2em;
+}
