@@ -1,46 +1,48 @@
-<div class="toppage">
-  <div class="toppage-main">
-    <h1 class="toppage-message">地元のカラオケ仲間で集まろう</h1>
-    <div class="top-image">
-    <%= image_tag 'song-people.jpg', class: 'song-people-img' %>
+<%= render "shared/header" %>
+  <div class="toppage">
+    <div class="toppage-main">
+      <h1 class="toppage-message">地元のカラオケ仲間で集まろう</h1>
+      <div class="top-image">
+      <%= image_tag 'song-people.jpg', class: 'song-people-img' %>
+      </div>
+    </div>
+    <div class="toppage-event">
+      <h1 class="this-month-event">今月のイベント一覧</h1>
+      <ul class="toppage-event-lists">
+        <li class="toppage-event-list">北海道
+          <div class="event-list-detail">
+            <div>xxxxxxxx</div>
+            <div>xxxxxxxx</div>
+            <div>xxxxxxxx</div>
+            <div>xxxxxxxx</div>
+          </div>
+        </li>
+        <li class="toppage-event-list">関東
+          <div class="event-list-detail">
+            <div>xxxxxxxx</div>
+            <div>xxxxxxxx</div>
+            <div>xxxxxxxx</div>
+            <div>xxxxxxxx</div>
+          </div>
+        </li>
+        <li class="toppage-event-list">関西
+          <div class="event-list-detail">
+            <div>xxxxxxxx</div>
+            <div>xxxxxxxx</div>
+            <div>xxxxxxxx</div>
+            <div>xxxxxxxx</div>
+          </div>
+        </li>
+        <li class="toppage-event-list">九州
+          <div class="event-list-detail">
+            <div>xxxxxxxx</div>
+            <div>xxxxxxxx</div>
+            <div>xxxxxxxx</div>
+            <div>xxxxxxxx</div>
+          </div>
+        </li>
+      </ul>
+      <p class="find-more">〜Find more〜</p>
     </div>
   </div>
-  <div class="toppage-event">
-    <h1 class="this-month-event">今月のイベント一覧</h1>
-    <ul class="toppage-event-lists">
-      <li class="toppage-event-list">北海道
-        <div class="event-list-detail">
-          <div>xxxxxxxx</div>
-          <div>xxxxxxxx</div>
-          <div>xxxxxxxx</div>
-          <div>xxxxxxxx</div>
-        </div>
-      </li>
-      <li class="toppage-event-list">関東
-        <div class="event-list-detail">
-          <div>xxxxxxxx</div>
-          <div>xxxxxxxx</div>
-          <div>xxxxxxxx</div>
-          <div>xxxxxxxx</div>
-        </div>
-      </li>
-      <li class="toppage-event-list">関西
-        <div class="event-list-detail">
-          <div>xxxxxxxx</div>
-          <div>xxxxxxxx</div>
-          <div>xxxxxxxx</div>
-          <div>xxxxxxxx</div>
-        </div>
-      </li>
-      <li class="toppage-event-list">九州
-        <div class="event-list-detail">
-          <div>xxxxxxxx</div>
-          <div>xxxxxxxx</div>
-          <div>xxxxxxxx</div>
-          <div>xxxxxxxx</div>
-        </div>
-      </li>
-    </ul>
-    <p>〜Find more〜</p>
-  </div>
-</div>
+<%= render "shared/footer" %>
