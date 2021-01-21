@@ -97,15 +97,18 @@
 
 .register-red-btn {
   height: 4.0rem;
+  margin: 3.0rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .register-btn {
-  width: 10rem;
-  border-radius: 2.0rem;
+  height: 3.0rem;
+  width: 12rem;
+  border-radius: 0.5rem;
   font-weight: bold;
+  cursor: pointer;
 }
 
 
