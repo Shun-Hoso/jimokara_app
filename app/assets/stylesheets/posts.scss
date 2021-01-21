@@ -2,38 +2,46 @@ body {
   height: 100vh;
   width: 100vw;
 }
+
+.toppage {
+  margin-top: 10rem;
+}
+
 .header {
   height: 10vh;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: black;
   color: whitesmoke;
-  padding: 0 5em;
-  margin-bottom: 5em;
+  padding: 0 5rem;
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
 }
 
 .header-title {
-  font-size: 2.5em;
+  font-size: 2.5rem;
   font-family: serif;
   font-weight: bold;
 }
 
 .header-lists {
   display: flex;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   font-family: serif;
   font-weight: bold;
 }
 
 .header-list {
-  margin-right: 0.5em;
+  margin-right: 0.5rem;
 }
 
 .toppage-message {
   text-align: center;
   font-family: serif;
-  font-size: 2.5em;
+  font-size: 2.5rem;
 }
 
 .top-image {
@@ -51,16 +59,16 @@ body {
 
 .this-month-event {
   text-align: center;
-  font-size: 2em;
+  font-size: 2rem;
   font-family: serif;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .toppage-event-lists {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 4em;
+  margin-bottom: 4rem;
 }
 
 .toppage-event-list {
@@ -69,18 +77,20 @@ body {
 }
 
 .find-more {
-  font-size: 1em;
+  font-size: 1rem;
   font-family: serif;
   text-align: center;
 }
 
 .footer {
   height: 10vh;
-  margin-top: 2em;
-  padding: 0 5em;
+  width: 100%;
+  margin-top: 2rem;
+  padding: 0 5rem;
   background-color: black;
   color: whitesmoke;
   font-family: serif;
+  box-sizing: border-box;
 }
 
 .footer-title {
@@ -95,5 +105,5 @@ body {
 
 .footer-link {
   color: whitesmoke;
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }

@@ -1,0 +1,115 @@
+.registration-main {
+  width: 100%;
+  min-width: 50rem;
+  margin-top: 8rem;
+  padding: 0 5rem;
+  box-sizing: border-box;
+}
+
+// プロフィール画像
+.img-upload {
+  height: 18.5rem;
+  margin-bottom: 4.0rem;
+  font-family: serif;
+}
+
+.weight-bold-text {
+  font-family: serif;
+  font-size: 1.25rem;
+}
+
+#previews {
+  height: 12.5rem;
+  margin-bottom: 1rem;
+  background-color: #dddddd;
+}
+.click-upload {
+  margin-bottom: 1.0rem;
+}
+
+.profile-photo {
+  font-family: serif;
+  margin-top: 0.5rem;
+}
+
+// フォーム欄のデフォルト
+.form-wrap {
+  font-family: serif;
+}
+
+.form-group {
+  margin: 0.5rem 0;
+}
+
+.form-text-wrap {
+
+}
+
+.info-text {
+  opacity: 0.6;
+}
+
+.required {
+  font-family: serif;
+  color: #DD143c;
+  font-size: 0.8rem;
+}
+
+.input-default {
+  width: 35%;
+  padding: 0.4rem 0.2rem;
+}
+
+// フォームヘッダー
+.form-header {
+  height: 6.0rem;
+}
+
+.form-header-text {
+  text-align: center;
+  font-family: serif;
+  font-size: 2.0rem;
+  line-height: 3.0em;
+}
+
+// プルダウン
+.select-box {
+  height: 2.0rem;
+  width: 17.5%;
+}
+
+// コメント入力
+.comment-box {
+  width: 70%;
+  height: 14rem;
+  padding: 0.4rem 0.4rem;
+}
+
+// 送信
+.form-bottom-text {
+
+}
+
+.use-rule {
+  text-decoration: none;
+  color: #DD143c;
+}
+
+.register-red-btn {
+  height: 4.0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-btn {
+  width: 10rem;
+  border-radius: 2.0rem;
+  font-weight: bold;
+}
+
+
+
+
+
+
